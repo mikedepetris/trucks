@@ -1,0 +1,73 @@
+
+stats for Os - number of orders for truck
+-----------------------------------------
+numberOfOrdersForTruck_TOTAL len= 7200
+DataFrame describe:                  0
+count  7200.000000
+mean      5.333333
+std       1.447704
+min       3.000000
+25%       4.000000
+50%       5.000000
+75%       6.000000
+max      10.000000
+MIN= 3
+MAX= 10
+counts len= 11
+counts sum= 7200
+counts= [   0    0    0  564 1644 2052 1572  780  348  204   36]
+Table to show the ratio of the orders assigned to each truck 
+truck - ratio - orders count
+1 0.00 0
+2 0.00 0
+3 0.08 564
+4 0.23 1644
+5 0.28 2052
+6 0.22 1572
+7 0.11 780
+8 0.05 348
+9 0.03 204
+10 0.01 36
+
+stats for us - due times for trucks
+-----------------------------------
+us_dueTimeForTruck_TOTAL len= 7200
+DataFrame describe:                  0
+count  7200.000000
+mean     11.216667
+std       5.733029
+min       1.000000
+25%       7.000000
+50%      11.000000
+75%      16.000000
+max      24.000000
+MIN= 1
+MAX= 24
+counts len= 25
+counts sum= 7200
+counts= [  0 252 288 348 216 348 312 348 372 324 432 384 324 516 360 432 468 480
+ 504  84  48  60 108  96  96]
+
+us_dueTimeForTruck_RANDOM_TOTAL len= 7200
+DataFrame describe:                  0
+count  7200.000000
+mean     11.106111
+std       5.576240
+min       1.000000
+25%       7.000000
+50%      12.000000
+75%      16.000000
+max      24.000000
+MIN= 1
+MAX= 24
+counts_random len= 25
+counts_random sum= 7200
+counts_random= [  0 282 307 243 305 323 308 355 354 349 365 318 393 488 490 493 499 483
+ 470  62  69  53  57  61  73]
+Table to show the frequency ratio of the due times for each time slot
+comparing distribution as given by paper, those present in input files, and the random generated values
+time slots / paper / input file / random
+Group1 / 0.25 / 0.25 / 0.25
+Group2 / 0.30 / 0.30 / 0.30
+Group3 / 0.40 / 0.38 / 0.41
+Group4 / 0.05 / 0.07 / 0.05
